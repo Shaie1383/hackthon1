@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farewell Parties 2024</title>
+    <style>
+        body {
+            background-color: rgb(245, 241, 241);
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            background-color: rgb(218, 174, 176);
+            color: rgb(19, 19, 19);
+        }
+        .event-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .event-card {
+            background-color: rgba(253, 254, 255, 0.995);
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            text-align: center;
+            position: relative;
+        }
+        .event-card img {
+            width: 100%;
+            border-radius: 10px;
+            max-width: 400px; /* Keep image dimensions consistent */
+            height: auto;
+        }
+        .event-title {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+        .event-date,
+        .event-location,
+        .event-team-size,
+        .event-price {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+        .register-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: green;
+            color: rgb(14, 14, 14);
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .completed::before {
+            content: "Upcoming";
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(0, 255, 0, 0.7);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .completed .register-btn {
+            display: none; /* Hide register button for upcoming events */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Farewell Parties 2024</h1>
+
+    <div class="event-container">
+        <!-- CSE Event -->
+        <div class="event-card completed">
+            <img src="hack1.jpg" alt="CSE Farewell Party">
+            <h2 class="event-title">CSE Farewell Party</h2>
+            <p class="event-date">Date: 2024-12-30</p>
+            <p class="event-location">Location: ground</p>
+        
+            <p class="event-price">Price: $300 </p>
+        </div>
+
+        <!-- CSEBS-AIML Event -->
+        <div class="event-card">
+            <img src="hack1.jpg" alt="CSEBS-AIML Farewell Party">
+            <h2 class="event-title">CSEBS-AIML Farewell Party</h2>
+            <p class="event-date">Date: 2024-12-27</p>
+            <p class="event-location">Location: ground</p>
+            
+            <p class="event-price">Price: $500 </p>
+        </div>
+
+        <!-- CSE DS Event -->
+        <div class="event-card completed">
+            <img src="hack1.jpg" alt="CSE DS Farewell Party">
+            <h2 class="event-title">CSE DS Farewell Party</h2>
+            <p class="event-date">Date: 2024-12-28</p>
+            <p class="event-location">Location:ground</p>
+            <p class="event-price">Price: $400 </p>
+        </div>
+
+        <!-- ECE Event -->
+        <div class="event-card">
+            <img src="hack1.jpg" alt="ECE Farewell Party">
+            <h2 class="event-title">ECE Farewell Party</h2>
+            <p class="event-date">Date: 2024-12-25</p>
+            <p class="event-location">Location:ground</p>
+           
+            <p class="event-price">Price: $400 </p>
+        </div>
+
+        <!-- EEE Event -->
+        <div class="event-card completed">
+            <img src="hack1.jpg" alt="EEE Farewell Party">
+            <h2 class="event-title">EEE Farewell Party</h2>
+            <p class="event-date">Date: 2024-12-23</p>
+            <p class="event-location">Location: ground</p>
+            
+            <p class="event-price">Price: $350 </p>
+        </div>
+    </div>
+
+</body>
+</html>
