@@ -33,7 +33,7 @@ const events = [
         description: 'Welcome party for new students with cultural performances.',
         category: 'Freshers',
         image: 'freshers.jpg',
-        link: 'freshers.html'
+        link: 'fresher.html'
     },
     {
         title: 'Farewell 2024',
